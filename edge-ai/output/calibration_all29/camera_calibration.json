@@ -1,0 +1,715 @@
+{
+  "result_type": "intrinsic camera calibration only",
+  "limitations": "Intrinsics alone do not provide arbitrary 3D object positions or distances.",
+  "calibration_timestamp": "2026-07-30T04:57:56.453600+00:00",
+  "source_manifest": "/home/debdeep/Documents/SystemControlAI/edge-ai-jetson-ready/edge-ai/output/dataset_manifest.json",
+  "source_manifest_generated_at": "2026-07-30T04:53:39.608362+00:00",
+  "configuration": {
+    "image_width": 1280,
+    "image_height": 720,
+    "internal_corners_x": 7,
+    "internal_corners_y": 7,
+    "square_size_mm": 22.44,
+    "units": "millimetres",
+    "calibration_flags": 0,
+    "termination_criteria": {
+      "type": 3,
+      "maximum_iterations": 100,
+      "epsilon": 1e-09
+    }
+  },
+  "accepted_view_count": 29,
+  "accepted_image_names": [
+    "calibration_20260729T095742_944000Z_0001.png",
+    "calibration_20260729T095749_279863Z_0002.png",
+    "calibration_20260729T095755_849323Z_0003.png",
+    "calibration_20260729T095807_790660Z_0004.png",
+    "calibration_20260729T095815_384230Z_0005.png",
+    "calibration_20260729T095821_985914Z_0006.png",
+    "calibration_20260729T095828_828007Z_0007.png",
+    "calibration_20260729T095838_515122Z_0008.png",
+    "calibration_20260729T095846_388458Z_0009.png",
+    "calibration_20260729T095936_424949Z_0010.png",
+    "calibration_20260729T095948_093593Z_0011.png",
+    "calibration_20260729T100001_463240Z_0012.png",
+    "calibration_20260729T100007_100006Z_0013.png",
+    "calibration_20260729T100016_265203Z_0014.png",
+    "calibration_20260729T100022_434176Z_0015.png",
+    "calibration_20260729T100027_098059Z_0016.png",
+    "calibration_20260729T100032_930410Z_0017.png",
+    "calibration_20260729T100037_698771Z_0018.png",
+    "calibration_20260729T100043_131678Z_0019.png",
+    "calibration_20260729T100047_500134Z_0020.png",
+    "calibration_20260729T100059_469089Z_0021.png",
+    "calibration_20260729T100105_235010Z_0022.png",
+    "calibration_20260729T100115_266413Z_0023.png",
+    "calibration_20260729T100822_492110Z_0024.png",
+    "calibration_20260729T100836_814860Z_0025.png",
+    "calibration_20260729T100848_379797Z_0026.png",
+    "calibration_20260729T100858_115151Z_0027.png",
+    "calibration_20260729T100914_779045Z_0028.png",
+    "calibration_20260729T100934_515388Z_0029.png"
+  ],
+  "accepted_image_warnings": {
+    "calibration_20260729T095742_944000Z_0001.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T095749_279863Z_0002.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T095755_849323Z_0003.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T095807_790660Z_0004.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T095815_384230Z_0005.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T095821_985914Z_0006.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T095828_828007Z_0007.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T095838_515122Z_0008.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T095846_388458Z_0009.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T095936_424949Z_0010.png": [
+      "limited horizontal checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T095948_093593Z_0011.png": [
+      "limited horizontal checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100001_463240Z_0012.png": [
+      "limited horizontal checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100007_100006Z_0013.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100016_265203Z_0014.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100022_434176Z_0015.png": [
+      "limited horizontal checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100027_098059Z_0016.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100032_930410Z_0017.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100037_698771Z_0018.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100043_131678Z_0019.png": [
+      "limited horizontal checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100047_500134Z_0020.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100059_469089Z_0021.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100105_235010Z_0022.png": [
+      "limited horizontal checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100115_266413Z_0023.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100822_492110Z_0024.png": [
+      "limited horizontal checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100836_814860Z_0025.png": [],
+    "calibration_20260729T100848_379797Z_0026.png": [
+      "limited horizontal checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100858_115151Z_0027.png": [
+      "limited horizontal checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100914_779045Z_0028.png": [
+      "limited horizontal checkerboard coverage; review image diversity"
+    ],
+    "calibration_20260729T100934_515388Z_0029.png": [
+      "limited horizontal checkerboard coverage; review image diversity",
+      "limited vertical checkerboard coverage; review image diversity"
+    ]
+  },
+  "camera_matrix": [
+    [
+      918.392200798916,
+      0.0,
+      647.624143438454
+    ],
+    [
+      0.0,
+      920.3372838185774,
+      353.9428861979978
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "distortion_coefficients": [
+    0.11993988849622422,
+    -0.2014967211855643,
+    -0.00437988072764845,
+    -0.00011052564836360058,
+    -0.020318442709968337
+  ],
+  "rotation_vectors": [
+    [
+      -0.6009132819421812,
+      -0.020347003757017895,
+      -0.0017683680829331389
+    ],
+    [
+      -0.4851624365758029,
+      -0.018572781579701943,
+      0.0075834217847012015
+    ],
+    [
+      -0.7254056797497133,
+      0.002340205623581226,
+      0.02196003077957477
+    ],
+    [
+      -0.6870849149980665,
+      -0.5704273634030618,
+      -1.4673943892511934
+    ],
+    [
+      -0.9703272153704934,
+      0.048690852203640195,
+      0.10003862952664859
+    ],
+    [
+      -0.9758225727142464,
+      0.05956399152853688,
+      0.09427700494504831
+    ],
+    [
+      -0.9686758550807874,
+      0.21732090590756092,
+      0.4298972945367289
+    ],
+    [
+      -0.9944552753242509,
+      0.054750197099622734,
+      0.08369211024443278
+    ],
+    [
+      -0.9925772849763528,
+      0.0853143641491194,
+      0.16387760506474672
+    ],
+    [
+      -0.07013478621661304,
+      0.11889467473496503,
+      3.1210583033633466
+    ],
+    [
+      -0.20755589256710988,
+      0.10050302970802681,
+      1.4362426626578966
+    ],
+    [
+      0.08615365036929222,
+      0.022474522279935624,
+      0.000618348844459683
+    ],
+    [
+      -0.04297954127614306,
+      -0.002623727105048773,
+      0.028396026880467242
+    ],
+    [
+      -0.5192187489460158,
+      0.002637556895988308,
+      -0.05271782332420874
+    ],
+    [
+      -0.5176630133400796,
+      0.3335984588962106,
+      1.0202115330199395
+    ],
+    [
+      -0.5042260156164464,
+      0.24541618288541742,
+      0.7242906193393271
+    ],
+    [
+      -0.4912179556145477,
+      0.07419651868247598,
+      0.12914251803500504
+    ],
+    [
+      -0.5466365977082556,
+      0.31401020222284887,
+      0.9584097233101309
+    ],
+    [
+      -0.5963658564166363,
+      0.20123077449087698,
+      0.5854322544702254
+    ],
+    [
+      -0.7327839516272555,
+      0.0627155148792372,
+      0.10325620780357364
+    ],
+    [
+      -0.6613319117881693,
+      0.22243645102622508,
+      0.5647145249131429
+    ],
+    [
+      -0.5019889873478528,
+      0.19925445240918865,
+      0.5989753137186512
+    ],
+    [
+      -0.5862533161881912,
+      0.48697491397421644,
+      1.3059894808386683
+    ],
+    [
+      -0.3101528570852694,
+      -0.014266953071314748,
+      -0.015592550934970272
+    ],
+    [
+      0.14274429194346738,
+      -0.4739354687754719,
+      1.404398227694154
+    ],
+    [
+      0.2225700235801798,
+      -0.2124216307360519,
+      1.5355586711439868
+    ],
+    [
+      -0.17510528811386847,
+      -0.08428191620145065,
+      -0.04057949558743271
+    ],
+    [
+      -0.47039635212605485,
+      0.1774915674450298,
+      1.3875588704913056
+    ],
+    [
+      -1.1428276740809473,
+      0.03200222353481556,
+      0.21658779385537563
+    ]
+  ],
+  "translation_vectors": [
+    [
+      -44.823605888896616,
+      84.74100718737022,
+      757.9054890765133
+    ],
+    [
+      -33.77350280003078,
+      59.801924180610875,
+      714.0174125350178
+    ],
+    [
+      -24.962438560143948,
+      114.9079896686603,
+      802.8748933911652
+    ],
+    [
+      110.43260563136856,
+      213.8712696467193,
+      742.5591401155497
+    ],
+    [
+      -186.29141705715872,
+      100.9320165195677,
+      1015.9364476055865
+    ],
+    [
+      -29.856494445770608,
+      111.7334706842456,
+      1000.6811305591318
+    ],
+    [
+      147.58816930593974,
+      121.10764591192236,
+      987.6620344535081
+    ],
+    [
+      -16.326145766874298,
+      192.49702950728272,
+      879.2066466840052
+    ],
+    [
+      -110.90293311544156,
+      171.99615228674506,
+      913.7356222029111
+    ],
+    [
+      -24.722168503663568,
+      104.9424942061565,
+      625.3116273755654
+    ],
+    [
+      118.34893451160431,
+      -44.890631065063175,
+      704.637404566527
+    ],
+    [
+      -107.85703707650823,
+      -140.2584489794199,
+      667.5351388249934
+    ],
+    [
+      -131.38201498218376,
+      18.07324981963994,
+      717.197923524954
+    ],
+    [
+      -11.032632538239994,
+      73.9831142738244,
+      825.2242540664158
+    ],
+    [
+      173.93969876251109,
+      39.36056754479257,
+      862.3201888900745
+    ],
+    [
+      197.28440075787668,
+      -77.2337138216935,
+      918.7506098981999
+    ],
+    [
+      11.594179959104599,
+      -92.25027354909514,
+      906.8666462750024
+    ],
+    [
+      -87.9424109942632,
+      -51.05708775155813,
+      931.6918460502267
+    ],
+    [
+      -82.75508981045927,
+      87.65925810095672,
+      841.9007822862729
+    ],
+    [
+      21.024747673253092,
+      127.50691665833044,
+      858.0068970211645
+    ],
+    [
+      65.21774404804603,
+      9.868656353912625,
+      923.5007646467873
+    ],
+    [
+      -18.496698260090497,
+      -29.03966797150461,
+      882.102593926706
+    ],
+    [
+      69.0957307599113,
+      38.55891052238907,
+      922.8279717622265
+    ],
+    [
+      -183.48919534493896,
+      16.71739070596723,
+      629.8625783142583
+    ],
+    [
+      -65.04733685040273,
+      -91.35944375382503,
+      394.5507626364025
+    ],
+    [
+      239.17708537346596,
+      -121.47190466877875,
+      554.3620095980832
+    ],
+    [
+      -26.821297410657557,
+      7.592119462116965,
+      638.6526146811533
+    ],
+    [
+      -5.383142157736462,
+      38.02503338463831,
+      618.6961741137968
+    ],
+    [
+      57.133924320186246,
+      135.65752487277013,
+      803.2003405695584
+    ]
+  ],
+  "opencv_rms_calibration_error": 0.19362584164476782,
+  "reprojection_error_definition": "Root mean squared Euclidean pixel distance per detected corner.",
+  "per_image_reprojection_rmse_pixels": [
+    {
+      "image": "calibration_20260729T095742_944000Z_0001.png",
+      "rmse_pixels": 0.10113303308561135,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T095749_279863Z_0002.png",
+      "rmse_pixels": 0.12044844672449234,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T095755_849323Z_0003.png",
+      "rmse_pixels": 0.10979569438692631,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T095807_790660Z_0004.png",
+      "rmse_pixels": 0.15073603448970652,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T095815_384230Z_0005.png",
+      "rmse_pixels": 0.20162279582478213,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T095821_985914Z_0006.png",
+      "rmse_pixels": 0.21299771157547515,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T095828_828007Z_0007.png",
+      "rmse_pixels": 0.4364443316405338,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T095838_515122Z_0008.png",
+      "rmse_pixels": 0.3383497218889604,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T095846_388458Z_0009.png",
+      "rmse_pixels": 0.1474613480214853,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T095936_424949Z_0010.png",
+      "rmse_pixels": 0.25830621850870167,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T095948_093593Z_0011.png",
+      "rmse_pixels": 0.18143194176201957,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100001_463240Z_0012.png",
+      "rmse_pixels": 0.10728683024796329,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100007_100006Z_0013.png",
+      "rmse_pixels": 0.12982485569617105,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100016_265203Z_0014.png",
+      "rmse_pixels": 0.09800320581440927,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100022_434176Z_0015.png",
+      "rmse_pixels": 0.08467552042371983,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100027_098059Z_0016.png",
+      "rmse_pixels": 0.13307774077732565,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100032_930410Z_0017.png",
+      "rmse_pixels": 0.20761616214423786,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100037_698771Z_0018.png",
+      "rmse_pixels": 0.19149919469215668,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100043_131678Z_0019.png",
+      "rmse_pixels": 0.15056922741578832,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100047_500134Z_0020.png",
+      "rmse_pixels": 0.11396477056540005,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100059_469089Z_0021.png",
+      "rmse_pixels": 0.12295537204076629,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100105_235010Z_0022.png",
+      "rmse_pixels": 0.19620985829101875,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100115_266413Z_0023.png",
+      "rmse_pixels": 0.2717054078396453,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100822_492110Z_0024.png",
+      "rmse_pixels": 0.20346114166460078,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100836_814860Z_0025.png",
+      "rmse_pixels": 0.19631554368255316,
+      "warnings": []
+    },
+    {
+      "image": "calibration_20260729T100848_379797Z_0026.png",
+      "rmse_pixels": 0.18012062976039603,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100858_115151Z_0027.png",
+      "rmse_pixels": 0.17106174923665546,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100914_779045Z_0028.png",
+      "rmse_pixels": 0.14802176320220292,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity"
+      ]
+    },
+    {
+      "image": "calibration_20260729T100934_515388Z_0029.png",
+      "rmse_pixels": 0.21467508058527093,
+      "warnings": [
+        "limited horizontal checkerboard coverage; review image diversity",
+        "limited vertical checkerboard coverage; review image diversity"
+      ]
+    }
+  ],
+  "aggregate_reprojection_rmse_pixels": {
+    "mean": 0.178612804551344,
+    "median": 0.17106174923665546,
+    "minimum": 0.08467552042371983,
+    "maximum": 0.4364443316405338,
+    "standard_deviation": 0.07475699045799668
+  },
+  "software_versions": {
+    "python": "3.12.3",
+    "opencv": "4.8.0",
+    "numpy": "1.26.4"
+  },
+  "advisory_observations": [
+    "No images were automatically removed; high-error views require human review.",
+    "Views above mean + 2 standard deviations (advisory only): calibration_20260729T095828_828007Z_0007.png, calibration_20260729T095838_515122Z_0008.png"
+  ]
+}

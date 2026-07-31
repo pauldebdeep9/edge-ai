@@ -1,0 +1,7 @@
+# Windows-only development environment. Do not install this file on the Jetson.
+opencv-contrib-python==4.8.0.76
+numpy==1.26.4
+PyYAML==6.0.2
+pytest==8.3.5
+ruff==0.11.2
+mypy==1.15.0

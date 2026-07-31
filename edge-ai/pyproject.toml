@@ -1,0 +1,25 @@
+[project]
+name = "edge-ai"
+version = "0.1.0"
+description = "Edge computer-vision project for NVIDIA Jetson Orin Nano"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.mypy]
+python_version = "3.11"
+mypy_path = "src"
+files = ["src", "tests"]
+strict = true
+warn_unreachable = true

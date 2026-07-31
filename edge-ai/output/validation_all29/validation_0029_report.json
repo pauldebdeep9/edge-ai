@@ -1,0 +1,108 @@
+{
+  "report_type": "offline intrinsic-calibration undistortion validation",
+  "validation_timestamp": "2026-07-30T05:00:44.366020+00:00",
+  "source_image_path": "/home/debdeep/Documents/SystemControlAI/edge-ai-jetson-ready/edge-ai/data/raw/calibration_20260729T100934_515388Z_0029.png",
+  "calibration_path": "/home/debdeep/Documents/SystemControlAI/edge-ai-jetson-ready/edge-ai/output/calibration_all29/camera_calibration.npz",
+  "calibration_source_format": "npz",
+  "original_resolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "calibration_resolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "resolution_match": true,
+  "explicit_scaling_used": false,
+  "alpha": 0.0,
+  "alpha_explanation": "Alpha 0 generally prioritizes valid pixels and more cropping; alpha 1 generally retains more field of view and may preserve black borders.",
+  "original_camera_matrix": [
+    [
+      918.392200798916,
+      0.0,
+      647.624143438454
+    ],
+    [
+      0.0,
+      920.3372838185774,
+      353.9428861979978
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "new_camera_matrix": [
+    [
+      926.913423504229,
+      0.0,
+      648.2128863226155
+    ],
+    [
+      0.0,
+      936.1098600660678,
+      351.6802796434888
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "distortion_coefficients": [
+    0.11993988849622422,
+    -0.2014967211855643,
+    -0.00437988072764845,
+    -0.00011052564836360058,
+    -0.020318442709968337
+  ],
+  "opencv_roi": {
+    "x": 0,
+    "y": 0,
+    "width": 1279,
+    "height": 719
+  },
+  "valid_roi": {
+    "x": 0,
+    "y": 0,
+    "width": 1279,
+    "height": 719
+  },
+  "crop_requested": true,
+  "crop_omission_reason": null,
+  "full_output_path": "/home/debdeep/Documents/SystemControlAI/edge-ai-jetson-ready/edge-ai/output/validation_all29/validation_0029_undistorted_full.png",
+  "cropped_output_path": "/home/debdeep/Documents/SystemControlAI/edge-ai-jetson-ready/edge-ai/output/validation_all29/validation_0029_undistorted_cropped.png",
+  "comparison_output_path": "/home/debdeep/Documents/SystemControlAI/edge-ai-jetson-ready/edge-ai/output/validation_all29/validation_0029_comparison.png",
+  "report_output_path": "/home/debdeep/Documents/SystemControlAI/edge-ai-jetson-ready/edge-ai/output/validation_all29/validation_0029_report.json",
+  "output_dimensions": {
+    "full": {
+      "width": 1280,
+      "height": 720
+    },
+    "cropped": {
+      "width": 1279,
+      "height": 719
+    },
+    "comparison": {
+      "width": 2560,
+      "height": 760
+    }
+  },
+  "calibration_metadata": {
+    "internal_corners_x": 7,
+    "internal_corners_y": 7,
+    "square_size_mm": 22.44,
+    "opencv_rms": 0.19362584164476782,
+    "mean_reprojection_rmse_pixels": 0.178612804551344
+  },
+  "checkerboard_observations": null,
+  "warnings": [],
+  "software_versions": {
+    "python": "3.12.3",
+    "opencv": "4.8.0",
+    "numpy": "1.26.4"
+  },
+  "visual_inspection_required": "Visual inspection is still required; a plausible image does not prove calibration accuracy.",
+  "limitations": "Undistortion from camera intrinsics does not establish arbitrary 3D object position or physical distance."
+}
