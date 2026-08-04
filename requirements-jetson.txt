@@ -1,2 +1,0 @@
-# The Jetson already provides OpenCV and NumPy; do not add pip replacements.
-PyYAML==6.0.2
