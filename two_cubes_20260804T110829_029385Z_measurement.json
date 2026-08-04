@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-08-04T11:08:29.029385+00:00",
+  "source_image": "/home/debdeep/Documents/SystemControlAI/edge-ai-jetson-ready/edge-ai/data/measurement/two_cubes.png",
+  "source_image_sha256": "91e1a8bbd5c3a2ba0a6abac93292e310a24b7612967012fac9d7c40e4b29396b",
+  "image_width": 1280,
+  "image_height": 720,
+  "cube_1": {
+    "label": "cube_1",
+    "original_image_point": [
+      451.0,
+      252.0
+    ],
+    "undistorted_image_point": [
+      452.4128180900283,
+      252.95851114400074
+    ],
+    "table_plane_point_mm": [
+      -0.49508740967878695,
+      104.31071759111946
+    ],
+    "selection_method": "manual"
+  },
+  "cube_2": {
+    "label": "cube_2",
+    "original_image_point": [
+      628.0,
+      299.0
+    ],
+    "undistorted_image_point": [
+      628.0201041012785,
+      299.07129740621826
+    ],
+    "table_plane_point_mm": [
+      53.39094343332992,
+      34.5100928524725
+    ],
+    "selection_method": "manual"
+  },
+  "centre_to_centre_distance_mm": 88.18067551294386,
+  "measurement_definition": "centre_to_centre",
+  "intrinsic_calibration_source": "/home/debdeep/Documents/SystemControlAI/edge-ai-jetson-ready/edge-ai/output/calibration_all29/camera_calibration.npz",
+  "intrinsic_calibration_sha256": "99a3c0ddf99ed579c6a0b02e4a103c6a56407176c27696b51e0a964a489cf2b8",
+  "plane_calibration_source": "/home/debdeep/Documents/SystemControlAI/edge-ai-jetson-ready/edge-ai/output/plane_calibration/plane_calibration.json",
+  "plane_calibration_sha256": "4aba4b4ef06a84c2e6b69ef5e6cb466d21e5d86046ecb1029ed11c5683efd25c",
+  "coordinate_convention": "undistorted pixel coordinates from cv2.undistortPoints with P=original camera_matrix; first internal checkerboard corner is (0, 0) mm; positive X follows checkerboard columns; positive Y follows checkerboard rows",
+  "messages": [
+    "Manual points represent table-contact footprint centres.",
+    "Physical measurement accuracy has not yet been validated."
+  ]
+}
